@@ -31,10 +31,7 @@ Output: []
 
 ### Constraints
 
-```JavaScript
--10⁵ <= Node.val <= 10⁵
-```
-
+- `-10⁵ <= Node.val <= 10⁵`
 - The number of nodes in the list is in the range `[0, 5 * 10⁴]`.
 
 <br/>
@@ -115,3 +112,22 @@ Finally, the function merges the sorted left and right halves using the `merge` 
 In summary, the `sortList` function uses the merge sort algorithm to sort a linked list. It divides the list into smaller halves, sorts them individually using recursion, and then merges the sorted halves to obtain the final sorted linked list.
 <br/>
 <br/>
+<br/>
+<br/>
+
+### :next_track_button: [Next (Merge k Sorted Lists)][Next]
+<br/>
+
+### :previous_track_button: [Previous (Find All Anagrams in a String)][Previous]
+<br/>
+
+### :play_or_pause_button: [More Divide & Conquer Challenges][More]
+<br/>
+
+### :eject_button: [Return to Course Outline][Return]
+<br/>
+
+[Next]: https://github.com/Superklok/JavaScriptDivideAndConquer/blob/main/JavaScriptMergeKSortedLists.md
+[Previous]: https://github.com/Superklok/JavaScriptSorting/blob/main/JavaScriptFindAllAnagramsInAString.md
+[More]: https://github.com/Superklok/JavaScriptDivideAndConquer
+[Return]: https://github.com/Superklok/LearnJavaScript

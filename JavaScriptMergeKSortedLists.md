@@ -41,13 +41,10 @@ Output: []
 
 ### Constraints
 
-```JavaScript
-k == lists.length
-0 <= k <= 10⁴
-0 <= lists[i].length <= 500
--10⁴ <= lists[i][j] <= 10⁴
-```
-
+- `k == lists.length`
+- `0 <= k <= 10⁴`
+- `0 <= lists[i].length <= 500`
+- `-10⁴ <= lists[i][j] <= 10⁴`
 - `lists[i]` is sorted in ascending order.
 - The sum of `lists[i].length` will not exceed `10⁴`.
 
@@ -127,3 +124,22 @@ Once the `while` loop ends, the `next` property of the `head` variable, which re
 In summary, this function merges multiple linked lists into one sorted linked list using a minimum priority queue. It iterates over each linked list, enqueues the non-null heads into the queue, and then dequeues the elements from the queue in sorted order to create the merged list. The head of the merged list is returned as the output of the function.
 <br/>
 <br/>
+<br/>
+<br/>
+
+### :next_track_button: [Next (Median of Two Sorted Arrays)][Next]
+<br/>
+
+### :previous_track_button: [Previous (Sort List)][Previous]
+<br/>
+
+### :play_or_pause_button: [More Divide & Conquer Challenges][More]
+<br/>
+
+### :eject_button: [Return to Course Outline][Return]
+<br/>
+
+[Next]: https://github.com/Superklok/JavaScriptDivideAndConquer/blob/main/JavaScriptMedianOfTwoSortedArrays.md
+[Previous]: https://github.com/Superklok/JavaScriptDivideAndConquer/blob/main/JavaScriptSortList.md
+[More]: https://github.com/Superklok/JavaScriptDivideAndConquer
+[Return]: https://github.com/Superklok/LearnJavaScript

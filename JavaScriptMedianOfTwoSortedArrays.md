@@ -33,7 +33,7 @@ Explanation: merged array = [1,2,3,4] and median is (2 + 3) / 2 = 2.5.
 - `0 <= m <= 1000`
 - `0 <= n <= 1000`
 - `1 <= m + n <= 2000`
-- `-106 <= nums1[i], nums2[i] <= 106`
+- `-10⁶ <= nums1[i], nums2[i] <= 10⁶`
 
 <br/>
 
@@ -82,3 +82,22 @@ If the length of the `merge` array is odd, the function calculates the middle in
 In summary, the `findMedianSortedArrays` function takes two arrays, merges and sorts them, and then finds the median of the merged array.
 <br/>
 <br/>
+<br/>
+<br/>
+
+### :next_track_button: [Next (Valid Parentheses)][Next]
+<br/>
+
+### :previous_track_button: [Previous (Merge k Sorted Lists)][Previous]
+<br/>
+
+### :play_or_pause_button: [More Divide & Conquer Challenges][More]
+<br/>
+
+### :eject_button: [Return to Course Outline][Return]
+<br/>
+
+[Next]: https://github.com/Superklok/JavaScriptStacks/blob/main/JavaScriptValidParentheses.md
+[Previous]: https://github.com/Superklok/JavaScriptDivideAndConquer/blob/main/JavaScriptMergeKSortedLists.md
+[More]: https://github.com/Superklok/JavaScriptDivideAndConquer
+[Return]: https://github.com/Superklok/LearnJavaScript
