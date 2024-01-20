@@ -66,7 +66,7 @@ const mergeKLists = (lists) => {
     const head = result;
 
     while (!queue.isEmpty()) {
-        const { val, next } = queue.dequeue().element;
+        const {val, next} = queue.dequeue().element;
 
         result.next = new ListNode(val);
 

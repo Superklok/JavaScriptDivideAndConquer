@@ -13,7 +13,8 @@ The overall run time complexity should be `O(log (m+n))`.
 ```JavaScript
 Input: nums1 = [1,3], nums2 = [2]
 Output: 2.00000
-Explanation: merged array = [1,2,3] and median is 2.
+Explanation: merged array = [1,2,3]
+             and median is 2.
 ```
 
 ### 2<sup>nd</sup> Example
@@ -21,7 +22,8 @@ Explanation: merged array = [1,2,3] and median is 2.
 ```JavaScript
 Input: nums1 = [1,2], nums2 = [3,4]
 Output: 2.50000
-Explanation: merged array = [1,2,3,4] and median is (2 + 3) / 2 = 2.5.
+Explanation: merged array = [1,2,3,4]
+             and median is (2 + 3) / 2 = 2.5.
 ```
 
 <br/>
@@ -49,9 +51,9 @@ const findMedianSortedArrays = (nums1, nums2) => {
     }
 
     if (n % 2 === 0) {
-        const mid = n/2;
+        const mid = n / 2;
 
-        return (merge[mid - 1] + merge[mid])/2;
+        return (merge[mid - 1] + merge[mid]) / 2;
     } else {
         const mid = Math.floor(n / 2);
 
